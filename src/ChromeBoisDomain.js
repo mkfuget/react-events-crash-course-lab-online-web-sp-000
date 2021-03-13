@@ -31,7 +31,8 @@ export default class ChromeBoisDomain extends Component {
      {
        resize('+')
      }
-     elseif(event.key === 's') {
+     else if(event.key === 's')
+     {
        resize('-')
 
      }
